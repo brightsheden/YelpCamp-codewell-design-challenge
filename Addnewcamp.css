@@ -1,0 +1,159 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Archivo', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Prata', serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 900;
+}
+
+.nav-menu{
+    text-decoration: none;
+    color: rgb(70, 65, 65);
+    font-size: 18px;
+    margin-left: 10px;
+    opacity: 0.7;
+}
+
+#home-nave-menu{
+    position: relative;
+    top: -5px;
+}
+
+.username{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+section > h1{
+    font-size: 40px;
+}
+
+form{
+
+    
+    padding: 5px;
+}
+label{
+    font-size: 17px;
+    opacity: 0.7;
+    margin-bottom: 10px;
+}
+
+form > input{
+    display: block;
+    border: none;
+    outline: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    width: 95%;
+    height: 5vh;
+    padding: 5px;
+    
+    padding-top: 0;
+  
+}
+
+form > button{
+    background-color: black;
+    padding: 15px;
+    color: white;
+    width: 95%;
+    border-radius: 10px;
+
+}
+
+#camps-input-desc{
+    height: 10vh !important;
+
+}
+
+footer{
+    padding: 10px;
+    margin-top: 150px;
+  
+    
+    
+}
+
+
+@media screen and (max-width: 768px) {
+    header{
+        width: auto;
+    }
+    .nav-menu{
+        display: none;
+    }
+    .username{
+        display: none;
+    }
+    main{
+       display: block;
+       padding: 10px;
+       width: 100%;
+    }
+
+    section{
+        width: 100%;
+    }
+
+    section > h1{
+        font-size: 30px;
+        width: 100%;
+       
+        margin-bottom: 40px;
+    }
+
+    form{
+
+        width: 100%;
+        padding: 5px;
+        padding-right: 14px;
+      
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+
+    form > input{
+        display: block;
+        border: none;
+        outline: none;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        background-color: whitesmoke;
+        border-radius: 10px;
+        padding: 5px;
+        width: 95%;
+        height: 5vh;
+        padding-top: 0;
+       
+      
+    }
+
+    form > button{
+        background-color: black;
+        padding: 15px;
+        color: white;
+        width: 95%;
+        border-radius: 10px;
+    
+    }
+}

@@ -1,0 +1,156 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Archivo', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Prata', serif;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 900;
+}
+
+.nav-menu{
+    text-decoration: none;
+    color: rgb(70, 65, 65);
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+#home-nave-menu{
+    position: relative;
+    top: -5px;
+}
+
+.username{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+main{
+    display: flex;
+}
+.section-left{
+    border: 1px solid #aaa;
+    width: 35%;
+    height: 20%;
+    overflow: auto;
+    margin-left: 10px ;
+    margin-top: 10px;
+   
+   
+   
+}
+
+.map-wrapper{
+    text-align:  center;
+    padding: 20px;
+    padding-top: 5px;
+}
+
+
+
+.section-right{
+    width: 50%;
+
+    margin-left: 20px;
+    padding: 10px;
+    
+    
+}
+
+.camps-box{
+    
+   width: 100%;
+   position: relative;
+   padding: 5px;
+   border: 2px solid #aaa;
+   margin-bottom: 30px;
+  
+
+  
+  
+}
+
+.camps-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.camps-header > p {
+    font-family: 20px;
+    font-weight: bold;
+}
+.camps-box > img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+#camps-description{
+    
+    width: 95%;
+    font-size: 18px;
+    color: rgb(51, 49, 49);
+}
+
+#submitted-user{
+    font-size: 15px;
+    font-style: italic;
+    color: rgb(63, 59, 59);
+}
+
+.review-box{
+    border: 2px solid #aaa;
+    padding: 5px;
+    width: 100%;
+}
+
+.review-box-header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -15px;
+}
+
+.review-box-header > h4 {
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+#drop-review-btn{
+  background-color: black;
+  padding: 13px;
+  color: white;
+  border-radius: 4px;
+}
+
+.drop-review-btn-wrapper{
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer{
+    padding: 10px;
+}
+
+@media screen and (max-width:768px) {
+    .section-left{
+        display: none;
+    }
+
+    .section-right{
+        width: 100%;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    
+}
+
